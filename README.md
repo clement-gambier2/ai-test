@@ -3,31 +3,35 @@
 As part of a research project, I'm going to explain what I'm learning about AI stuff.
 Hopefully it will be useful.
 
-** Séance de travail du 17 janvier**
+## Characteristics of our game
 
-**Caractéristiques de notre jeu : **
+It's a perfect information game - both players see the entire state of the game
 
-C'est un jeu à information parfaite - les deux joueurs voient tout l'état du jeu
+It's a zero-sum game - if one player wins, the other loses
 
-C'est un jeu à somme nulle - la victoire d'un joueur implique la défaite de l'autre
+The state space is finite but quite large
 
-L'espace d'états est fini mais assez large
-
-Les règles sont déterministes - pas d'élément aléatoire dans le gameplay
-
-Test d’une implémentation de base du jeu avec MiniMax
+The rules are deterministic - there is no random element in the gameplay
 
 I have absolutely no knowledge about AI I’m just using AI models everyday to facilitate various tasks. To understand more I’m going to do the same thing that I’ve done when I started learning computer science : watching lectures of CS50.
 
-I’m working on Mac OS and I have issues with python packages (conflits between each others)
-
-Definitions :
+## Definitions
 
 agent : entitiy that perceives its environment and acts upon that environment
 
-Pipx
+## Python
 
-Poetry
+I’m working on Mac OS and I have issues with python packages (conflits between each others), so I discover differents tools to help me.
+Tools installated :
+pipx — Install and Run Python Applications in Isolated Environments
+poetry - poetry is a tool for dependency management and packaging in Python.
 
-Je comprends que vous souhaitez utiliser l'algorithme Deep Q-Learning (DQN) pour ce jeu.
-C'est un excellent choix car DQN est particulièrement efficace pour les problèmes avec un grand espace d'états discrets comme celui-ci.
+## Project
+
+The final goal is to find if this game as a winning strategy.
+
+- []
+
+## Deep Q Learning
+
+Use Gym package from Open AI
