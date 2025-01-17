@@ -271,7 +271,7 @@ class DQN(nn.Module):
         return self.network(x)
 
 # Entraînement DQL
-def train_dql(env, num_episodes=1000, learning_rate=1e-3, gamma=0.99, epsilon=1.0, epsilon_decay=0.995):
+def train_dql(env, num_episodes=10, learning_rate=1e-3, gamma=0.99, epsilon=1.0, epsilon_decay=0.995):
     input_dim = env.observation_space.shape[0] * env.observation_space.shape[1]
     output_dim = env.action_space.n
     model = DQN(input_dim, output_dim)
